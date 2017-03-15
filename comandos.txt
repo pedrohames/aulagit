@@ -1,0 +1,148 @@
+    1  mkdir projeto
+    2  cd projeto/
+    3  ls
+    4  git init
+    5  ls -a
+    6  cd .
+    7  cd .git
+    8  ls
+    9  cd ..
+   10  git config --global user.name "Pedro Hames"
+   11  git config --global user.mail "pedro.hamess@gmail.com"
+   12  git status
+   13  vi OlaMundo.java
+   14  ls
+   15  ls -la
+   16  ls -l
+   17  git status
+   18  git add OlaMundo.java 
+   19  git status
+   20  git commit -m "Adicionando arquivo OlaMundo.java"
+   21  git commit -m "Adicionando arquivo OlaMundo"
+   22  git config --global user.email "pedro.hamess@gmail.com"
+   23  git commit -m "Adicionando arquivo OlaMundo"
+   24  git log --decorate --graph --all --oneline
+   25  alias git-tree="git log --decorate --graph --all --oneline"
+   26  git-tree
+   27  vi OlaMundo.java 
+   28  ls
+   29  la -l
+   30  ls -l
+   31  cat OlaMundo.java 
+   32  git status
+   33  git add OlaMundo.java 
+   34  git commit -m "Adicionado Ola GIT"
+   35  git status
+   36  git-tree
+   37  javac OlaMundo.java 
+   38  vi OlaMundo.java 
+   39  git add OlaMundo.java 
+   40  git commit -m "Corrigido Ola GIT"
+   41  javac OlaMundo.java 
+   42  ls
+   43  vi .gitignore
+   44  sitstatus
+   45  git status
+   46  git add .gitignore 
+   47  git commit -m "Add gitIgnore"
+   48  git-tree
+   49  touch a.txt b.txt c.txt
+   50  ls -l
+   51  git status
+   52  git add *.txt
+   53  git status
+   54  git commit -m "Add os .txt"
+   55  git-tree
+   56  vi .gitignore 
+   57  git commit -m "Alterado o ignore"
+   58  git status
+   59  git add .gitignore 
+   60  git commit -m "Alterado o ignore"
+   61  git status
+   62  git-tree
+   63  git status
+   64  git-tree
+   65  ls -l
+   66  git checkout bdb7772
+   67  git-tree
+   68  ls -l
+   69  cat OlaMundo.java 
+   70  git checkout 56435b9
+   71  git-tree
+   72  ls -l
+   73  cat OlaMundo.java 
+   74  git remote add origin https://github.com/pedrohames/aulagit.git
+   75  git remote -v
+   76  git push -u origin master
+   77  git-tree
+   78  cd 
+   79  ls
+   80  mkdir casa
+   81  cd casa/
+   82  ls -la
+   83  git clone https://github.com/pedrohames/aulagit
+   84  ls -l
+   85  cd auj
+   86  cd aulagit/
+   87  ls -la
+   88  git-tree
+   89  cd ..
+   90  cd projeto/
+   91  ls
+   92  git-tree
+   93  touch d.txt
+   94  git status
+   95  git add 
+   96  git add d.txt 
+   97  git commit -m "add d.txt"
+   98  git status
+   99  git-tree
+  100  git push origin master
+  101  git-tree
+  102  git checkout master
+  103  ls
+  104  git-tree 
+  105  git merge 3a45463
+  106  git-tree
+  107  ls -l
+  108  git push origin master
+  109  git-tree
+  110  cd ~/casa
+  111  ls
+  112  cd aulagit/
+  113  git-tree
+  114  git fetch origin master
+  115  git-tree
+  116  ls
+  117  git pull origin master 
+  118  git-tree
+  119  ls -l
+  120  pwd
+  121  touch e.txt f.txt g.txt
+  122  git add e.txt f.txt g.txt 
+  123  git commit -m "add os e f g.txt"
+  124  git push origin master 
+  125  cd ..
+  126  cd projeto/
+  127  ls
+  128  git pull https://github.com/pedrohames/aulagit
+  129  git-tree
+  130  git fetch https://github.com/pedrohames/aulagit
+  131* 
+  132  git pull origin master 
+  133  git-tree
+  134  ls -a
+  135  cd ~/casa/aulagit/
+  136  ls
+  137  la -l
+  138  git rm -f d.txt 
+  139  git status
+  140  git commit -m "apagado o d.txt"
+  141  ls
+  142  git-tree
+  143  git checkout 695504e
+  144  ls -l
+  145  git checkout master
+  146  ls -l
+  147  git status
+  148  history > comandos.txt
